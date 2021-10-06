@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: dellstore_dataset
+    database: dellstore
+    schema: public
+    tables:
+      - name: products
+      - name: actors
+      - name: orders
+      - name: customers
+
+
